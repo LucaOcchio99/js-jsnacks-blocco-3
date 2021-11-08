@@ -144,7 +144,7 @@ successo per i tiri da 3 punti superiore all’80%.*/
 
 const punti_maggiori = dieci_giocatori.filter((giocatore) => {
 
-   return giocatore.media_punti > 34 && giocatore.successo_tiri > 80
+   return giocatore.media_punti > 35 && giocatore.successo_tiri > 80
 });
 
 console.log(punti_maggiori);
